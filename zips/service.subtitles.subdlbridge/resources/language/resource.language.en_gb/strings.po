@@ -1,0 +1,37 @@
+# Kodi Media Center language file
+# Addon Name: SubdlBridge
+# Addon id: service.subtitles.subdlbridge
+# Addon Provider: Alqatrony
+msgid ""
+msgstr ""
+"Project-Id-Version: SubdlBridge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-10 23:00+0200\n"
+"PO-Revision-Date: 2025-05-10 23:00+0200\n"
+"Last-Translator: Alqatrony\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32001"
+msgid "API Token"
+msgstr "API Token"
+
+msgctxt "#32002"
+msgid "API URL"
+msgstr "API URL"
+
+msgctxt "#32003"
+msgid "Authentication token required"
+msgstr "Authentication token required"
+
+msgctxt "#32004"
+msgid "Failed to connect to API"
+msgstr "Failed to connect to API"
+
+msgctxt "#32005"
+msgid "No subtitles found in your collection"
+msgstr "No subtitles found in your collection"

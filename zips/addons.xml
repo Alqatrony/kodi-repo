@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addons>
+  <addon id="repository.alqatrony" name="Alqatrony Repository" version="1.0.0" provider-name="Alqatrony">
+    
+    
+    <extension point="xbmc.addon.repository" name="Alqatrony Repository">
+      
+        
+      <info compressed="false">https://alqatrony.github.io/kodi-repo/zips/addons.xml</info>
+      
+        
+      <checksum>https://alqatrony.github.io/kodi-repo/zips/addons.xml.md5</checksum>
+      
+        
+      <datadir zip="true">https://alqatrony.github.io/kodi-repo/zips/</datadir>
+      
+    
+    </extension>
+    
+    
+    <extension point="xbmc.addon.metadata">
+      
+        
+      <summary>Kodi Repository for Alqatrony Addons</summary>
+      
+        
+      <description>Install this to get access to the subdlBridge addon and receive automatic updates.</description>
+      
+        
+      <platform>all</platform>
+      
+        
+      <assets>
+        
+            
+        <icon>icon.png</icon>
+        
+            
+        <fanart>fanart.jpg</fanart>
+        
+        
+      </assets>
+      
+    
+    </extension>
+    
+
+  </addon>
+  <addon id="service.subtitles.subdlbridge" version="1.0.0" name="SubDL Bridge Subtitles" provider-name="Alqatrony">
+    
+    
+    <extension point="xbmc.subtitle.module" library="service.py">
+      
+        
+      <description>Fetches your saved SubDL subtitles</description>
+      
+    
+    </extension>
+    
+    
+    <requires>
+      
+        
+      <import addon="script.module.requests" version="2.22.0"/>
+      
+    
+    </requires>
+    
+    
+    <extension point="xbmc.addon.metadata">
+      
+        
+      <summary>SubDL Bridge</summary>
+      
+        
+      <platform>all</platform>
+      
+        
+      <language>en</language>
+      
+        
+      <assets>
+        
+            
+        <icon>icon.png</icon>
+        
+            
+        <fanart>fanart.jpg</fanart>
+        
+        
+      </assets>
+      
+    
+    </extension>
+    
+
+  </addon>
+</addons>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <category label="General">
+    <setting id="uid"    type="text" label="User ID (UID)" default="" />
+    <setting id="token"  type="text" label="API token"     default="" />
+  </category>
+</settings>
