@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.alqatrony" name="Alqatrony Repository" version="1.0.0" provider-name="Alqatrony">
+<addon id="repository.alqatrony" name="Alqatrony Repository" version="1.0.1" provider-name="Alqatrony">
     <extension point="xbmc.addon.repository" name="Alqatrony Repository">
-        <info compressed="false">https://alqatrony.github.io/kodi-repo/zips/addons.xml</info>
-        <checksum>https://alqatrony.github.io/kodi-repo/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://alqatrony.github.io/kodi-repo/zips/</datadir>
+        <dir>
+            <info compressed="false">https://alqatrony.github.io/kodi-repo/zips/addons.xml</info>
+            <checksum>https://alqatrony.github.io/kodi-repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://alqatrony.github.io/kodi-repo/zips/</datadir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Kodi Repository for Alqatrony Addons</summary>
