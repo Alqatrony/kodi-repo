@@ -16,7 +16,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="service.subtitles.subdlbridge" version="1.0.1" name="SubDL Bridge Subtitles" provider-name="Alqatrony">
+    <addon id="service.subtitles.subdlbridge" version="1.2.0" name="SubDL Bridge Subtitles" provider-name="Alqatrony">
         <extension point="xbmc.subtitle.module" library="service.py">
             <description>Fetches your saved SubDL subtitles</description>
         </extension>
